@@ -26,7 +26,7 @@ export const MyServices = () => {
         <div className="grid md:grid-cols-3 lg:grid-cols-4 gap-5 my-10">
 
           <div className="md:py-5 space-y-2 md:col-span-2 mb-3 md:mb-0 lg:pr-4">
-            <h2 className="text-white text-xl md:text-3xl font-bold mb-1">
+            <h2 className="text-white text-2xl md:text-3xl font-bold mb-1">
               Segurança e Resultados Dentro e Fora dos Tribunais
             </h2>
             <p className="text-white text-sm md:text-lg">
@@ -37,37 +37,37 @@ export const MyServices = () => {
           </div>
 
           <div className="group border border-white rounded-md px-4 py-5 flex flex-col items-center justify-center gap-3 hover:bg-white cursor-pointer hover:-translate-y-2 transition ease-in-out duration-200">
-            <img className=' w-28 group-hover:hidden' src={ImageDivorceOne} alt="" />
-            <img className='hidden  w-28 group-hover:block' src={ImageDivorceTwo} alt="" />
+            <img className='w-20 group-hover:hidden' src={ImageDivorceOne} alt="" />
+            <img className='hidden  w-20 group-hover:block' src={ImageDivorceTwo} alt="" />
             <h2 className="text-white group-hover:text-greenTheme text-lg md:text-xl font-bold">
               Divórcio Consensual
             </h2>
           </div>
 
           <div className="group border border-white rounded-md px-4 py-5 flex flex-col items-center justify-center gap-3 hover:bg-white cursor-pointer hover:-translate-y-2 transition ease-in-out duration-200">
-            <img className=' w-28 group-hover:hidden' src={ImageContractOne} alt="" />
-            <img className='hidden  w-28 group-hover:block' src={ImageContractTwo} alt="" />
+            <img className=' w-20 group-hover:hidden' src={ImageContractOne} alt="" />
+            <img className='hidden  w-20 group-hover:block' src={ImageContractTwo} alt="" />
             <h2 className="text-white group-hover:text-greenTheme text-lg md:text-xl font-bold">Contratos</h2>
           </div>
           <div className="group border border-white rounded-md px-4 py-5 flex flex-col items-center justify-center gap-3 hover:bg-white cursor-pointer hover:-translate-y-2 transition ease-in-out duration-200">
-            <img className=' w-28 group-hover:hidden' src={CasamentoOne} alt="" />
-            <img className='hidden  w-28 group-hover:block' src={CasamentoTwo} alt="" />
+            <img className=' w-20 group-hover:hidden' src={CasamentoOne} alt="" />
+            <img className='hidden  w-20 group-hover:block' src={CasamentoTwo} alt="" />
             <h2 className="text-white group-hover:text-greenTheme text-center text-lg md:text-xl font-bold">Planejamento Matrimonial</h2>
           </div>
 
           <div className="group border border-white rounded-md px-4 py-5 flex flex-col items-center justify-center gap-3 hover:bg-white cursor-pointer hover:-translate-y-2 transition ease-in-out duration-200">
-            <img className=' w-28 group-hover:hidden' src={SucessaoOne} alt="" />
-            <img className='hidden  w-28 group-hover:block' src={SucessaoTwo} alt="" />
+            <img className=' w-20 group-hover:hidden' src={SucessaoOne} alt="" />
+            <img className='hidden  w-20 group-hover:block' src={SucessaoTwo} alt="" />
             <h2 className="text-white text-center group-hover:text-greenTheme text-lg md:text-xl font-bold">Planejamento Sucessório</h2>
           </div>
           <div className="group border border-white rounded-md px-4 py-5 flex flex-col items-center justify-center gap-3 hover:bg-white cursor-pointer hover:-translate-y-2 transition ease-in-out duration-200">
-            <img className=' w-28 group-hover:hidden' src={InventarioOne} alt="" />
-            <img className='hidden  w-28 group-hover:block' src={InventarioTwo} alt="" />
+            <img className=' w-20 group-hover:hidden' src={InventarioOne} alt="" />
+            <img className='hidden  w-20 group-hover:block' src={InventarioTwo} alt="" />
             <h2 className="text-white text-center group-hover:text-greenTheme text-lg md:text-xl font-bold">Inventário Extrajudicial</h2>
           </div>
           <div className="group border border-white rounded-md px-4 py-5 flex flex-col items-center justify-center gap-3 hover:bg-white cursor-pointer hover:-translate-y-2 transition ease-in-out duration-200">
-            <img className=' w-28 group-hover:hidden' src={PatrimonialOne} alt="" />
-            <img className='hidden  w-28 group-hover:block' src={PatrimonialTwo} alt="" />
+            <img className=' w-20 group-hover:hidden' src={PatrimonialOne} alt="" />
+            <img className='hidden  w-20 group-hover:block' src={PatrimonialTwo} alt="" />
             <h2 className="text-white group-hover:text-greenTheme text-lg md:text-xl font-bold">Trabalhista Patrimonial</h2>
           </div>
         </div>

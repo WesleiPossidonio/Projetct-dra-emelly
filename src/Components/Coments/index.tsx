@@ -12,7 +12,7 @@ export const Coments = () => {
         <div className="w-full md:w-1/2 flex flex-col items-center justify-start gap-3">
           <div className="self-start">
             <h4 className="text-white font-semibold">Testemunhos</h4>
-            <h1 className="text-white text-lg md:text-3xl">O que Falam da Dra Emely Fontes</h1>
+            <h1 className="text-white text-2xl md:text-3xl">O que Falam da Dra Emely Fontes</h1>
 
           </div>
           <p className="text-white text-md md:text-lg">

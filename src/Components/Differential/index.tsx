@@ -10,7 +10,7 @@ export const Differential = () => {
             <span className="position-absolute bg-primary px-1 rounded-lg"></span>
             <img className="rounded-md w-60 md:w-80" src={Image} alt="" />
 
-            <div className="h-24 w-32 md:h-32 md:w-40 -bottom-6 right-2 px-1 flex flex-col items-center justify-center absolute md:-bottom-8 md:right-32 lg:-right-12 bg-primary rounded-lg">
+            <div className="h-24 w-32 md:h-32 md:w-40 -bottom-6 -right-6 px-1 flex flex-col items-center justify-center absolute md:-bottom-8 md:right-32 lg:-right-12 bg-primary rounded-lg">
               <h1 className="text-2xl md:text-3xl text-white font-bold ">+ 2000 </h1>
               <h3 className="text-sm md:text-xl text-white font-bold text-center">Clientes <br /> Atendidos!</h3>
             </div>
@@ -20,7 +20,7 @@ export const Differential = () => {
             <div className='space-y-3 '>
               <div className=''>
                 <h1 className="text-black pt-4 text-base md:text-lg">Diferenças</h1>
-                <h2 className='text-black text-xl md:text-3xl font-semibold'>
+                <h2 className='text-black text-2xl md:text-3xl font-semibold'>
                   Muito Mais que uma Consulta!
                 </h2>
               </div>
