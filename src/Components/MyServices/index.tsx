@@ -19,7 +19,7 @@ import PatrimonialTwo from '../../assets/patrimonialTwo.svg'
 
 export const MyServices = () => {
   return (
-    <section className="w-full h-auto bg-primary overflow-hidden">
+    <section className="w-full h-auto bg-primary overflow-hidden" id='services'>
       <div className="container max-w-6xl mx-auto px-4 md:px-10 py-16">
 
         <h1 className="text-center text-white text-2xl md:text-3xl font-bold mt-6">Área de Atuação</h1>

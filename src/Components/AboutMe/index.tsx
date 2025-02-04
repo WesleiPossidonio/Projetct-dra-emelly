@@ -3,7 +3,7 @@ import ImageAbout from '../../assets/ImgEmelyFontes-1.jpg'
 export const AboutMe = () => {
 
   return (
-    <section className='w-full m-h-auto p-4 bg-center bg-fixed bg-cover bg-parallaxDescktop bg-no-repeat relative min-h-mobile lg:min-h-0' style={{ height: '35rem' }}>
+    <section className='w-full m-h-auto p-4 bg-center bg-fixed bg-cover bg-parallaxDescktop bg-no-repeat relative min-h-mobile lg:min-h-0' id='about' style={{ height: '35rem' }}>
       <div className="container max-w-6xl mx-auto flex flex-col md:flex-row justify-center lg:justify-between items-center md:px-5 py-10 lg:py-24 space-y-4 space-x-16">
         <div className="space-y-4 md:w-1/2 self-start" data-aos="fade-right" data-aos-duration="1000">
           <div>

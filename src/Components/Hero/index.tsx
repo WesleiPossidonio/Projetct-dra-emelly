@@ -1,8 +1,8 @@
 
 export const Hero = () => {
   return (
-    <section className="w-full h-svh p-5 md:p-16 flex flex-col items-start justify-start lg:justify-center gap-2 bg-center bg-cover bg-no-repeat bg-bannerMobile md:bg-bannerDescktop md:bg-[-47rem_0] lg:bg-center">
-      <h1 className=" md:w-3/4 text-2xl md:text-6xl text-white font-bold mt-16 md:mt-52 lg:mt-0">
+    <section className="w-full md:h-svh h-[51rem] p-5 md:p-16 flex flex-col items-start justify-start lg:justify-center gap-2 bg-center bg-cover bg-no-repeat bg-bannerMobile md:bg-bannerDescktop md:bg-[-47rem_0] lg:bg-center">
+      <h1 className=" md:w-3/4 text-3xl md:text-6xl text-white font-bold mt-24 md:mt-52 lg:mt-0">
         Defenda seus direitos <br /> com Excelência e Compromisso
       </h1>
       <p className="md:w-2/3 text-white text-lg md:text-xl mt-2">
