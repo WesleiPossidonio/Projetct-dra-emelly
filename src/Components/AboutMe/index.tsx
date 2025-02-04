@@ -8,7 +8,7 @@ export const AboutMe = () => {
         <div className="space-y-4 md:w-1/2 self-start" data-aos="fade-right" data-aos-duration="1000">
           <div>
             <h3 className="text-primary text-sm font-semibold mb-0.5">Um Pouco Mais Sobre</h3>
-            <h1 className="text-primary text-2xl md:text-3xl font-bold">Dra Emelly Fontes</h1>
+            <h1 className="text-primary text-2xl md:text-3xl font-bold">Dra Emely Fontes</h1>
           </div>
 
           <p className="text-black text-sm md:text-lg">
