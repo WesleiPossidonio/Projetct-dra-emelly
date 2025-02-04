@@ -1,7 +1,7 @@
 
 export const CallAction = () => {
   return (
-    <section className="w-full h-auto bg-gray-100 py-20 px-4 flex justify-center items-center">
+    <section className="w-full h-auto bg-gray-100 py-20 px-4 flex justify-center items-center overflow-hidden" data-aos="zoom-in" data-aos-duration="1000">
       <div className="w-full h-96 p-6 container bg-greenTheme flex flex-col items-center justify-center gap-2 rounded-xl">
         <h3 className="text-sm font-semibold text-white text-center">
           Proteja Seus Direitos com Confiança e Excelência Jurídica

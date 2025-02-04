@@ -7,7 +7,7 @@ import * as zod from "zod"
 
 import { Input } from '../../components/ui/input'
 import { Textarea } from '../../components/ui/textarea'
-import { MailPlus, Smartphone } from 'lucide-react'
+import { MailPlus, Map, Smartphone } from 'lucide-react'
 
 
 const sendEmailFormSchema = zod.object({
@@ -41,29 +41,43 @@ export const Contact = () => {
 
 
   return (
-    <section className='w-full h-auto bg-gray-100 py-16 px-4 flex justify-center items-center' style={{ minHeight: '35rem' }}>
+    <section className='w-full h-auto bg-gray-100 py-16 px-4 flex justify-center items-center overflow-hidden' style={{ minHeight: '35rem' }}>
       <div className="w-full container flex flex-col gap-14 lg:flex-row items-end md:items-center lg:items-end justify-center lg:justify-around lg:gap-4">
-        <img className='w-96 md:w-maps order-2' src={ImageContact} alt="" />
+        <img className='w-96 md:w-maps order-2' src={ImageContact} alt="" data-aos="fade-up" data-aos-offset="300"
+          data-aos-easing="ease-in-sine" />
 
-        <div className="w-full lg:w-1/2  flex flex-col gap-10 order-1">
+        <div className="w-full lg:w-1/2  flex flex-col gap-10 order-1" data-aos="fade-right" data-aos-offset="300"
+          data-aos-easing="ease-in-sine">
           <div className='flex flex-col items-start justify-center'>
             <h4 className='text-md md:text-lg text-greenTheme font-bold'>- Contatos</h4>
             <h1 className="text-xl md:text-3xl text-greenTheme font-bold">Entre em contato e dê o primeiro passo para resolver suas questões jurídicas com confiança e excelência.</h1>
 
-            <div className='flex flex-col items-start justify-center gap-4 mt-4'>
-              <div className='flex items-center'>
-                <Smartphone className='text-greenTheme size-11' />
-                <span className='flex flex-col align-start'>
-                  <p>Telefone</p>
-                  <a className='text-lg font-bold text-greenTheme' href="http://" target="_blank" rel="noopener noreferrer">22 99959-9450</a>
-                </span>
+            <div className='w-full flex flex-col items-start justify-center gap-4 mt-4'>
+              <div className="w-full flex flex-col md:flex-row items-start md:items-center justify-start gap-4 md:gap-20">
+                <div className='flex items-center'>
+                  <Smartphone className='text-greenTheme size-11' />
+                  <span className='flex flex-col align-start'>
+                    <p>Telefone</p>
+                    <a className='text-lg font-bold text-greenTheme' href="https://api.whatsapp.com/send?phone=5522999599450" target="_blank" rel="noopener noreferrer">22 99959-9450</a>
+                  </span>
+                </div>
+
+                <div className='flex items-center gap-2'>
+                  <MailPlus className='text-greenTheme size-11' />
+                  <span className='flex flex-col align-start'>
+                    <p>E-mail</p>
+                    <a className='text-lg font-bold text-greenTheme' href="mailto:example@gmail.com" rel="noopener noreferrer">Example@gmail.com</a>
+                  </span>
+                </div>
               </div>
 
               <div className='flex items-center gap-2'>
-                <MailPlus className='text-greenTheme size-11' />
+                <Map className='text-greenTheme size-11' />
                 <span className='flex flex-col align-start'>
-                  <p>E-mail</p>
-                  <a className='text-lg font-bold text-greenTheme' href="mailto:example@gmail.com" rel="noopener noreferrer">Example@gmail.com</a>
+                  <p>Endereço</p>
+                  <a className='text-lg font-bold text-greenTheme' href="https://maps.app.goo.gl/mkayNdqDKdELdEWA8" target="_blank" rel="noopener noreferrer">
+                    Av. Elias Agostinho, <br /> 340 - Centro, Macaé - RJ, 27920-090
+                  </a>
                 </span>
               </div>
             </div>
@@ -75,6 +89,7 @@ export const Contact = () => {
             <Input className='border-gray-400 focus:border-greenTheme' type="tel" placeholder="Digite o número do Telefone" {...register('phone')} />
             <Input className='border-gray-400 focus:border-greenTheme' type="text" placeholder="Digite o Assunto" {...register('subject_title')} />
             <Textarea className='border-gray-400 focus:border-greenTheme' placeholder='Digite sua Dúvida' {...register('subject_text')} />
+            <button className="w-36 self-start text-base bg-greenTheme px-4 py-2 mt-2 rounded text-white font-bold" type='submit'>Saiba Mais!</button>
           </form>
         </div>
       </div>

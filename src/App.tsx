@@ -1,10 +1,30 @@
-import { CallAction, Coments, Contact, Differential, Faq, Hero, MyServices } from "./Components"
-import AboutMe from "./Components/AboutMe"
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+
+import {
+  AboutMe,
+  CallAction,
+  Coments,
+  Contact,
+  Differential,
+  Faq,
+  Footer,
+  Header,
+  Hero,
+  MyServices
+} from "./Components"
+import { useEffect } from 'react';
+
 
 function App() {
 
+  useEffect(() => {
+    AOS.init()
+  }, [])
+
   return (
     <main className="bg-white w-full h-auto">
+      <Header />
       <Hero />
       <AboutMe />
       <MyServices />
@@ -13,6 +33,7 @@ function App() {
       <CallAction />
       <Faq />
       <Contact />
+      <Footer />
     </main>
   )
 }

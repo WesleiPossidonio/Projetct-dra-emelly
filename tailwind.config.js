@@ -22,7 +22,11 @@ export default {
 				primary: '#4C5E54'
 			},
 			backgroundImage: {
-				parallaxDescktop: 'url("../public/BannerABoutMe.png")'
+				parallaxDescktop: 'url("../public/BannerAbout.png")',
+				bannerMobile: 'url("../public/BannerImgMobile.png")',
+				bannerDescktop: 'url("../public/BannerDraEmelly2.png")',
+				imageTeste: 'url("../public/imageTeste.png")'
+
 			},
 			colors: {
 				greenTheme: '#4C5E54',
