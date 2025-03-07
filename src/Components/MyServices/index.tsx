@@ -27,12 +27,13 @@ export const MyServices = () => {
 
           <div className="md:py-5 space-y-2 md:col-span-2 mb-3 md:mb-0 lg:pr-4">
             <h2 className="text-white text-2xl md:text-3xl font-bold mb-1">
-              Segurança e Resultados Dentro e Fora dos Tribunais
+              Exelência e Compromisso com a sua gestão Juridica
             </h2>
             <p className="text-white text-sm md:text-lg">
-              Atendimento de demandas jurídicas. Atuação em negociações extrajudiciais e judiciais,
-              Emely defende a importância de buscar soluções fora do tribunal,
-              sempre garantindo segurança jurídica e eficiência.
+              Com atuação em demandas extrajudiciais e judiciais, Dra. Emelly
+              defende a importância de buscar sempre soluções adequadas para
+              seus clientes, priorizando, sempre que possível, a resolução
+              por vias extrajudiciais.
             </p>
           </div>
 
@@ -47,7 +48,7 @@ export const MyServices = () => {
           <div className="group border border-white rounded-md px-4 py-5 flex flex-col items-center justify-center gap-3 hover:bg-white cursor-pointer hover:-translate-y-2 transition ease-in-out duration-200" data-aos="zoom-in" data-aos-duration="1000">
             <img className=' w-20 group-hover:hidden' src={ImageContractOne} alt="" />
             <img className='hidden  w-20 group-hover:block' src={ImageContractTwo} alt="" />
-            <h2 className="text-white group-hover:text-greenTheme text-lg md:text-xl font-bold">Contratos</h2>
+            <h2 className="text-white group-hover:text-greenTheme text-lg md:text-xl font-bold text-center">Contratos e Regularização Patrimonial</h2>
           </div>
 
           <div className="group border border-white rounded-md px-4 py-5 flex flex-col items-center justify-center gap-3 hover:bg-white cursor-pointer hover:-translate-y-2 transition ease-in-out duration-200" data-aos="zoom-in" data-aos-duration="1000">
@@ -69,7 +70,7 @@ export const MyServices = () => {
           <div className="group border border-white rounded-md px-4 py-5 flex flex-col items-center justify-center gap-3 hover:bg-white cursor-pointer hover:-translate-y-2 transition ease-in-out duration-200" data-aos="zoom-in" data-aos-duration="1000">
             <img className=' w-20 group-hover:hidden' src={PatrimonialOne} alt="" />
             <img className='hidden  w-20 group-hover:block' src={PatrimonialTwo} alt="" />
-            <h2 className="text-white group-hover:text-greenTheme text-center text-lg md:text-xl font-bold">Trabalhista Patrimonial</h2>
+            <h2 className="text-white group-hover:text-greenTheme text-center text-lg md:text-xl font-bold">Trabalhista Patronal</h2>
           </div>
         </div>
       </div>

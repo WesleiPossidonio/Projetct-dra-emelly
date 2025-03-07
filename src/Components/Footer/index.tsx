@@ -18,18 +18,18 @@ export const Footer = () => {
           <h1 className="text-white text-2xl font-semibold">Navegação</h1>
           <ul className="space-y-2">
             <li><a className="text-white text-lg" href="#">Home</a></li>
-            <li><a className="text-white text-lg" href="#">Sobre Mim</a></li>
-            <li><a className="text-white text-lg" href="#">Serviços</a></li>
-            <li><a className="text-white text-lg" href="#">Contatos</a></li>
+            <li><a className="text-white text-lg" href="#about">Sobre Mim</a></li>
+            <li><a className="text-white text-lg" href="#services">Serviços</a></li>
+            <li><a className="text-white text-lg" href="#contacts">Contatos</a></li>
           </ul>
         </div>
 
         <div className="w-full flex flex-col items-start justify-start gap-2">
           <h1 className="text-white text-2xl font-semibold">Contatos</h1>
           <ul className="space-y-2">
-            <li className="text-white md:text-lg font-semibold">Telefone:<a className="ml-2 md:text-lg font-normal" href="ttps://api.whatsapp.com/send?phone=5522999599450">22 99959-9450</a></li>
-            <li className="text-white md:text-lg font-semibold">Email:<a className="ml-2 md:text-lg font-normal" href="mailto:Example@gmail.com">Example@gmail.com</a></li>
-            <li className="text-white md:text-lg font-semibold">Endereço:<a className="ml-2 md:text-lg  font-normal" href="https://maps.app.goo.gl/CfXJqtMpWJEh1umn8" target='_blank'>
+            <li className="text-white md:text-lg font-semibold">Telefone:<a className="ml-2 md:text-md font-normal" href="ttps://api.whatsapp.com/send?phone=5522999599450">22 99959-9450</a></li>
+            <li className="text-white md:text-lg font-semibold">Email:<a className="ml-2 md:text-md font-normal" href="mailto:Example@gmail.com">Example@gmail.com</a></li>
+            <li className="text-white md:text-lg font-semibold">Endereço:<a className="ml-2 md:text-md  font-normal" href="https://maps.app.goo.gl/CfXJqtMpWJEh1umn8" target='_blank'>
               Av. Elias Agostinho, <br /> 340 - Imbetiba, Macaé - RJ, 27970-020
             </a>
             </li>

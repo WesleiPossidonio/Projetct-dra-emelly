@@ -50,7 +50,9 @@ export const Contact = () => {
           data-aos-easing="ease-in-sine">
           <div className='flex flex-col items-start justify-center'>
             <h4 className='text-md md:text-lg text-greenTheme font-bold'>- Contatos</h4>
-            <h1 className="text-xl md:text-3xl text-greenTheme font-bold">Entre em contato e dê o primeiro passo para resolver suas questões jurídicas com confiança e excelência.</h1>
+            <h1 className="text-xl md:text-3xl text-greenTheme font-bold">
+              Entre em contato e dê o primeiro passo para resolver suas questões jurídicas com confiança e excelência.
+            </h1>
 
             <div className='w-full flex flex-col items-start justify-center gap-4 mt-4'>
               <div className="w-full flex flex-col md:flex-row items-start md:items-center justify-start gap-4 md:gap-20">
