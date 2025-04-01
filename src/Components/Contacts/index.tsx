@@ -68,7 +68,7 @@ export const Contact = () => {
                   <MailPlus className='text-greenTheme size-11' />
                   <span className='flex flex-col align-start'>
                     <p>E-mail</p>
-                    <a className='text-lg font-bold text-greenTheme' href="mailto:example@gmail.com" rel="noopener noreferrer">Example@gmail.com</a>
+                    <a className='text-lg font-bold text-greenTheme' href="mailto:emelyfontes@hotmail.com" rel="noopener noreferrer">emelyfontes@hotmail.com</a>
                   </span>
                 </div>
               </div>

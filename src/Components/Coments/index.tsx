@@ -45,15 +45,15 @@ const comentsArray = [
 export const Coments = () => {
   return (
     <section className="w-full h-auto flex items-center bg-primary overflow-hidden" style={{ minHeight: '35rem' }}>
-      <div className="container max-w-6xl mx-auto py-10 px-8 space-y-5 flex flex-col lg:flex-row items-center justify-center gap-7">
+      <div className="full container max-w-6xl mx-auto py-10 px-8 space-y-5 flex flex-col items-start justify-center gap-7">
         <div className="w-full lg:w-1/2 flex flex-col items-center justify-start gap-3" data-aos="fade-right" data-aos-duration="1000">
           <div className="self-start">
             <h4 className="text-white font-semibold">Testemunhos</h4>
             <h1 className="text-white text-2xl md:text-3xl">O que Falam da Dra Emely Fontes</h1>
+            <p className="text-white text-md md:text-lg m-0 self-start">
+              Veja o que meus clientes dizem sobre meu trabalho
+            </p>
           </div>
-          <p className="text-white text-md md:text-lg m-0  self-start">
-
-          </p>
           <button className="w-36 self-start text-base bg-white px-4 py-2 mt-2 rounded text-greenTheme font-bold">Saiba Mais!</button>
         </div>
 
@@ -68,12 +68,12 @@ export const Coments = () => {
             {
               comentsArray.map(coments => {
                 return (
-                  <CarouselItem key={coments.id} className="md:basis-1/2 flex items-center justify-center">
+                  <CarouselItem key={coments.id} className="md:basis-1/2 lg:basis-1/3 flex items-center justify-center">
                     <div className="w-full h-56 p-6 flex flex-col items-start justify-center gap-3 rounded-md shadow-sm bg-white">
                       <p className="text-md font-semibold">
                         {coments.name}
                       </p>
-                      <p className="text-sm">
+                      <p className="text-sm overflow-hidden">
                         {coments.text}
                       </p>
                       <div className="flex flex-col items-start justify-center gap-3">

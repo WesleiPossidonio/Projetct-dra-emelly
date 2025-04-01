@@ -3,7 +3,6 @@ import 'aos/dist/aos.css';
 
 import {
   AboutMe,
-  CallAction,
   Coments,
   Contact,
   Differential,
@@ -30,7 +29,7 @@ function App() {
       <MyServices />
       <Differential />
       <Coments />
-      <CallAction />
+      {/* <CallAction /> */}
       <Faq />
       <Contact />
       <Footer />

@@ -13,16 +13,16 @@ export const AboutMe = () => {
 
           <p className="text-black text-sm md:text-lg">
             Me chamo Emely, sou advogada com mais de 12 anos de experiência,
-            voltada em oferecer soluções jurídicas ágeis e personalizadas para
-            atender às necessidades específicas dos meus clientes.
+            voltada em oferecer soluções jurídicas ágeis e personalizadas
+            para atender às necessidades específicas dos clientes.
             <br /><br />
-            Ao longo da minha trajetória, construí uma reputação de eficiência,+
+            Ao longo da minha trajetória, construí uma reputação de eficiência,
             integridade e resultados práticos, ajudando indivíduos e empresas a
-            superar desafios legais com rapidez e assertividade.
+            superarem desafios legais com agilidade e assertividade.
           </p>
 
           <p className="text-black text-sm md:text-lg">
-            Meu foco é simplificar processos complexos e entregar soluções que realmente façam a diferença
+            Meu foco é simplificar processos complexos e entregar soluções que realmente façam a diferença!
           </p>
         </div>
 
