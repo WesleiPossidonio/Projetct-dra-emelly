@@ -41,7 +41,7 @@ export const Contact = () => {
 
 
   return (
-    <section className='w-full h-auto bg-gray-100 py-16 px-4 flex justify-center items-center overflow-hidden' id='contacts' style={{ minHeight: '35rem' }}>
+    <section className='w-full h-auto bg-white py-16 px-4 flex justify-center items-center overflow-hidden' id='contacts' style={{ minHeight: '35rem' }}>
       <div className="w-full container flex flex-col gap-14 lg:flex-row items-end md:items-center lg:items-end justify-center lg:justify-around lg:gap-4">
         <img className='w-96 md:w-maps order-2' src={ImageContact} alt="" data-aos="fade-up" data-aos-offset="300"
           data-aos-easing="ease-in-sine" />
