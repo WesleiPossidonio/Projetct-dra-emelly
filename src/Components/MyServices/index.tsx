@@ -101,16 +101,6 @@ export const MyServices = () => {
           <div className="group border border-white rounded-md px-4 py-5 flex flex-col items-center 
             justify-center gap-3 hover:bg-white cursor-pointer hover:-translate-y-2 transition 
             ease-in-out duration-200" data-aos="zoom-in" data-aos-duration="1000">
-            <img className=' w-20 group-hover:hidden' src={SucessaoOne} alt="" />
-            <img className='hidden  w-20 group-hover:block' src={SucessaoTwo} alt="" />
-            <h2 className="text-white group-hover:text-greenTheme text-lg md:text-xl font-bold text-center">
-              Planejamento matrimonial - regime de bens no casamento.
-            </h2>
-          </div>
-
-          <div className="group border border-white rounded-md px-4 py-5 flex flex-col items-center 
-            justify-center gap-3 hover:bg-white cursor-pointer hover:-translate-y-2 transition 
-            ease-in-out duration-200" data-aos="zoom-in" data-aos-duration="1000">
             <img className=' w-20 group-hover:hidden' src={CasamentoOne} alt="" />
             <img className='hidden  w-20 group-hover:block' src={CasamentoTwo} alt="" />
             <h2 className="text-white group-hover:text-greenTheme text-lg md:text-xl font-bold text-center">
@@ -163,8 +153,8 @@ export const MyServices = () => {
           <div className="group border border-white rounded-md px-4 py-5 flex flex-col items-center 
             justify-center gap-3 hover:bg-white cursor-pointer hover:-translate-y-2 
             transition ease-in-out duration-200" data-aos="zoom-in" data-aos-duration="1000">
-            <img className=' w-20 group-hover:hidden' src={PatrimonialOne} alt="" />
-            <img className='hidden  w-20 group-hover:block' src={PatrimonialTwo} alt="" />
+            <img className=' w-20 group-hover:hidden' src={SucessaoOne} alt="" />
+            <img className='hidden  w-20 group-hover:block' src={SucessaoTwo} alt="" />
             <h2 className="text-white group-hover:text-greenTheme text-center text-lg md:text-xl font-bold">
               Elaboração e análise de contratos.
             </h2>
