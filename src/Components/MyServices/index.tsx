@@ -27,7 +27,7 @@ export const MyServices = () => {
 
           <div className="md:py-5 space-y-2 md:col-span-2 mb-3 md:mb-0 lg:pr-4">
             <h2 className="text-white text-2xl md:text-3xl font-bold mb-1">
-              Exelência e Compromisso com a sua gestão Juridica
+              Exelência e Compromisso com a sua Questão Juridica
             </h2>
             <p className="text-white text-sm md:text-lg">
               Com atuação em demandas extrajudiciais e judiciais, Dra. Emelly
@@ -43,7 +43,7 @@ export const MyServices = () => {
             <img className='w-20 group-hover:hidden' src={ImageDivorceOne} alt="" />
             <img className='hidden  w-20 group-hover:block' src={ImageDivorceTwo} alt="" />
             <h2 className="text-white text-center group-hover:text-greenTheme text-lg md:text-xl font-bold">
-              Divórcio Consensual
+              Divórcio Consensual (Cartório)
             </h2>
           </div>
 
@@ -153,7 +153,7 @@ export const MyServices = () => {
           <div className="group border border-white rounded-md px-4 py-5 flex flex-col items-center 
             justify-center gap-3 hover:bg-white cursor-pointer hover:-translate-y-2 
             transition ease-in-out duration-200" data-aos="zoom-in" data-aos-duration="1000">
-            <img className=' w-20 group-hover:hidden' src={SucessaoOne} alt="" />
+            <img className='w-20 group-hover:hidden' src={SucessaoOne} alt="" />
             <img className='hidden  w-20 group-hover:block' src={SucessaoTwo} alt="" />
             <h2 className="text-white group-hover:text-greenTheme text-center text-lg md:text-xl font-bold">
               Elaboração e análise de contratos.
