@@ -27,9 +27,9 @@ export const Footer = () => {
         <div className="w-full flex flex-col items-start justify-start gap-2">
           <h1 className="text-white text-2xl font-semibold">Contatos</h1>
           <ul className="space-y-2">
-            <li className="text-white md:text-lg font-semibold">Telefone:<a className="ml-2 md:text-md font-normal" href="ttps://api.whatsapp.com/send?phone=5522999599450">22 99959-9450</a></li>
-            <li className="text-white md:text-lg font-semibold">Email:<a className="ml-2 md:text-md font-normal" href="mailto:Example@gmail.com">Example@gmail.com</a></li>
-            <li className="text-white md:text-lg font-semibold">Endereço:<a className="ml-2 md:text-md  font-normal" href="https://maps.app.goo.gl/CfXJqtMpWJEh1umn8" target='_blank'>
+            <li className="text-white md:text-lg font-semibold">Telefone:<a className="ml-2 md:text-[0.980rem] font-normal" href="ttps://api.whatsapp.com/send?phone=5522999599450">(22) 99959-9450</a></li>
+            <li className="text-white md:text-lg font-semibold">Email:<a className="ml-2 md:text-[0.980rem] font-normal" href="mailto:emelyfontes@hotmail.com">emelyfontes@hotmail.com</a></li>
+            <li className="text-white md:text-lg font-semibold">Endereço:<a className="ml-2 md:text-[0.980rem]  font-normal" href="https://maps.app.goo.gl/CfXJqtMpWJEh1umn8" target='_blank'>
               Av. Elias Agostinho, <br /> 340 - Imbetiba, Macaé - RJ, 27970-020
             </a>
             </li>

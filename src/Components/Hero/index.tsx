@@ -1,8 +1,8 @@
 
 export const Hero = () => {
   return (
-    <section className="w-full  md:h-svh h-[52rem] p-5 md:p-13 lg:p-14 xl:p-28 flex flex-col items-start justify-start 
-    lg:justify-center gap-2 bg-center bg-cover bg-no-repeat bg-bannerMobile md:bg-bannerDescktop md:bg-[-52rem_0] lg:bg-[-43rem_0]">
+    <section className="w-full  md:h-svh h-[52rem] p-5 md:p-13 lg:p-36 flex flex-col items-start justify-start 
+    lg:justify-center gap-2 bg-center bg-cover bg-no-repeat bg-bannerMobile md:bg-bannerDescktop md:bg-[-52rem_0] lg:bg-center">
       <h1 className="md:w-[60%] text-3xl md:text-5xl text-white font-bold mt-20 md:mt-52 lg:mt-0">
         Excelência  e  <br /> Comprometimento  com o Cliente
       </h1>

@@ -47,6 +47,7 @@ export const MyServices = () => {
             </h2>
           </div>
 
+
           <div className="group border border-white rounded-md px-4 py-5 flex flex-col items-center 
             justify-center gap-3 hover:bg-white cursor-pointer hover:-translate-y-2 
             transition ease-in-out duration-200" data-aos="zoom-in" data-aos-duration="1000">
@@ -54,77 +55,6 @@ export const MyServices = () => {
             <img className='hidden  w-20 group-hover:block' src={ImageDivorceTwo} alt="" />
             <h2 className="text-white text-center group-hover:text-greenTheme text-lg md:text-xl font-bold">
               Direito da Família Consensual
-            </h2>
-          </div>
-
-          <div className="group border border-white rounded-md px-4 py-5 flex flex-col items-center 
-            justify-center gap-3 hover:bg-white cursor-pointer hover:-translate-y-2 transition 
-            ase-in-out duration-200" data-aos="zoom-in" data-aos-duration="1000">
-            <img className='w-20 group-hover:hidden' src={ImageContractOne} alt="" />
-            <img className='hidden  w-20 group-hover:block' src={ImageContractTwo} alt="" />
-            <h2 className="text-white text-center group-hover:text-greenTheme text-lg md:text-xl font-bold">
-              Doação de imóvel
-            </h2>
-          </div>
-
-          <div className="group border border-white rounded-md px-4 py-5 flex flex-col 
-            items-center justify-center gap-3 hover:bg-white cursor-pointer hover:-translate-y-2 
-            transition ease-in-out duration-200" data-aos="zoom-in" data-aos-duration="1000">
-            <img className='w-20 group-hover:hidden' src={SucessaoOne} alt="" />
-            <img className='hidden  w-20 group-hover:block' src={SucessaoTwo} alt="" />
-            <h2 className="text-white text-center group-hover:text-greenTheme text-lg md:text-xl font-bold">
-              Planejamento Patrimonial e Sucessório.
-            </h2>
-          </div>
-
-          <div className="group border border-white rounded-md px-4 py-5 flex flex-col items-center 
-            justify-center gap-3 hover:bg-white cursor-pointer hover:-translate-y-2 transition 
-            ease-in-out duration-200" data-aos="zoom-in" data-aos-duration="1000">
-            <img className=' w-20 group-hover:hidden' src={CasamentoOne} alt="" />
-            <img className='hidden  w-20 group-hover:block' src={CasamentoTwo} alt="" />
-            <h2 className="text-white group-hover:text-greenTheme text-lg md:text-xl font-bold text-center">
-              Planejamento matrimonial - regime de bens no casamento.
-            </h2>
-          </div>
-
-          <div className="group border border-white rounded-md px-4 py-5 flex flex-col items-center 
-            justify-center gap-3 hover:bg-white cursor-pointer hover:-translate-y-2 transition 
-            ease-in-out duration-200" data-aos="zoom-in" data-aos-duration="1000">
-            <img className=' w-20 group-hover:hidden' src={ImageContractOne} alt="" />
-            <img className='hidden  w-20 group-hover:block' src={ImageContractTwo} alt="" />
-            <h2 className="text-white group-hover:text-greenTheme text-center text-lg md:text-xl font-bold">
-              Consultoria imobiliária na Compra e Venda
-            </h2>
-          </div>
-
-
-          <div className="group border border-white rounded-md px-4 py-5 flex flex-col items-center 
-            justify-center gap-3 hover:bg-white cursor-pointer hover:-translate-y-2 transition 
-            ease-in-out duration-200" data-aos="zoom-in" data-aos-duration="1000">
-            <img className=' w-20 group-hover:hidden' src={ImageContractOne} alt="" />
-            <img className='hidden  w-20 group-hover:block' src={ImageContractTwo} alt="" />
-            <h2 className="text-white group-hover:text-greenTheme text-center text-lg md:text-xl font-bold">
-              Consultoria imobiliária na Compra e Venda
-            </h2>
-          </div>
-
-          <div className="group border border-white rounded-md px-4 py-5 flex flex-col items-center 
-            justify-center gap-3 hover:bg-white cursor-pointer hover:-translate-y-2 transition 
-            ease-in-out duration-200" data-aos="zoom-in" data-aos-duration="1000">
-            <img className=' w-20 group-hover:hidden' src={SucessaoOne} alt="" />
-            <img className='hidden  w-20 group-hover:block' src={SucessaoOne} alt="" />
-            <h2 className="text-white group-hover:text-greenTheme text-center text-lg md:text-xl font-bold">
-              Consultoria imobiliária na Locações de Imóveis.
-            </h2>
-          </div>
-
-          <div className="group border border-white rounded-md px-4 py-5 flex flex-col items-center justify-center 
-            gap-3 hover:bg-white cursor-pointer hover:-translate-y-2 transition 
-            ease-in-out duration-200" data-aos="zoom-in" data-aos-duration="1000">
-            <img className=' w-20 group-hover:hidden' src={ImageContractOne} alt="" />
-            <img className='hidden  w-20 group-hover:block' src={ImageContractTwo} alt="" />
-            <h2 className="text-white text-center group-hover:text-greenTheme text-lg md:text-xl font-bold">
-              Elaboração e análise de contratos.
             </h2>
           </div>
 
@@ -139,6 +69,16 @@ export const MyServices = () => {
           </div>
 
           <div className="group border border-white rounded-md px-4 py-5 flex flex-col items-center 
+            justify-center gap-3 hover:bg-white cursor-pointer hover:-translate-y-2 transition 
+            ase-in-out duration-200" data-aos="zoom-in" data-aos-duration="1000">
+            <img className='w-20 group-hover:hidden' src={ImageContractOne} alt="" />
+            <img className='hidden  w-20 group-hover:block' src={ImageContractTwo} alt="" />
+            <h2 className="text-white text-center group-hover:text-greenTheme text-lg md:text-xl font-bold">
+              Adjudicação extrajudicial e Usucapião Extrajudicial.
+            </h2>
+          </div>
+
+          <div className="group border border-white rounded-md px-4 py-5 flex flex-col items-center 
              justify-center gap-3 hover:bg-white cursor-pointer 
              hover:-translate-y-2 transition ease-in-out duration-200" data-aos="zoom-in" data-aos-duration="1000">
             <img className=' w-20 group-hover:hidden' src={InventarioOne} alt="" />
@@ -147,6 +87,47 @@ export const MyServices = () => {
               Regularização de imóveis administrativa e cartorária, incluindo “habite-se”
             </h2>
           </div>
+
+          <div className="group border border-white rounded-md px-4 py-5 flex flex-col 
+            items-center justify-center gap-3 hover:bg-white cursor-pointer hover:-translate-y-2 
+            transition ease-in-out duration-200" data-aos="zoom-in" data-aos-duration="1000">
+            <img className='w-20 group-hover:hidden' src={SucessaoOne} alt="" />
+            <img className='hidden  w-20 group-hover:block' src={SucessaoTwo} alt="" />
+            <h2 className="text-white text-center group-hover:text-greenTheme text-lg md:text-xl font-bold">
+              Doação de imóvel e Planejamento Patrimonial e Sucessório.
+            </h2>
+          </div>
+
+          <div className="group border border-white rounded-md px-4 py-5 flex flex-col items-center 
+            justify-center gap-3 hover:bg-white cursor-pointer hover:-translate-y-2 transition 
+            ease-in-out duration-200" data-aos="zoom-in" data-aos-duration="1000">
+            <img className=' w-20 group-hover:hidden' src={SucessaoOne} alt="" />
+            <img className='hidden  w-20 group-hover:block' src={SucessaoTwo} alt="" />
+            <h2 className="text-white group-hover:text-greenTheme text-lg md:text-xl font-bold text-center">
+              Planejamento matrimonial - regime de bens no casamento.
+            </h2>
+          </div>
+
+          <div className="group border border-white rounded-md px-4 py-5 flex flex-col items-center 
+            justify-center gap-3 hover:bg-white cursor-pointer hover:-translate-y-2 transition 
+            ease-in-out duration-200" data-aos="zoom-in" data-aos-duration="1000">
+            <img className=' w-20 group-hover:hidden' src={CasamentoOne} alt="" />
+            <img className='hidden  w-20 group-hover:block' src={CasamentoTwo} alt="" />
+            <h2 className="text-white group-hover:text-greenTheme text-lg md:text-xl font-bold text-center">
+              Planejamento matrimonial - Regime de bens no Casamento.
+            </h2>
+          </div>
+
+          <div className="group border border-white rounded-md px-4 py-5 flex flex-col items-center 
+            justify-center gap-3 hover:bg-white cursor-pointer hover:-translate-y-2 transition 
+            ease-in-out duration-200" data-aos="zoom-in" data-aos-duration="1000">
+            <img className=' w-20 group-hover:hidden' src={ImageContractOne} alt="" />
+            <img className='hidden  w-20 group-hover:block' src={ImageContractTwo} alt="" />
+            <h2 className="text-white group-hover:text-greenTheme text-center text-lg md:text-xl font-bold">
+              Consultoria imobiliária na compra e venda e locações de imóveis.
+            </h2>
+          </div>
+
 
           <div className="group border border-white rounded-md px-4 py-5 flex flex-col items-center 
             justify-center gap-3 hover:bg-white cursor-pointer hover:-translate-y-2 
@@ -158,13 +139,24 @@ export const MyServices = () => {
             </h2>
           </div>
 
+          <div className="group border border-white rounded-md px-4 py-5 flex flex-col items-center justify-center 
+            gap-3 hover:bg-white cursor-pointer hover:-translate-y-2 transition 
+            ease-in-out duration-200" data-aos="zoom-in" data-aos-duration="1000">
+            <img className=' w-20 group-hover:hidden' src={ImageContractOne} alt="" />
+            <img className='hidden  w-20 group-hover:block' src={ImageContractTwo} alt="" />
+            <h2 className="text-white text-center group-hover:text-greenTheme text-lg md:text-xl font-bold">
+              Elaboração e análise de contratos.
+            </h2>
+          </div>
+
+
           <div className="group border border-white rounded-md px-4 py-5 flex flex-col items-center 
             justify-center gap-3 hover:bg-white cursor-pointer hover:-translate-y-2 
             transition ease-in-out duration-200" data-aos="zoom-in" data-aos-duration="1000">
             <img className=' w-20 group-hover:hidden' src={PatrimonialOne} alt="" />
             <img className='hidden  w-20 group-hover:block' src={PatrimonialTwo} alt="" />
             <h2 className="text-white group-hover:text-greenTheme text-center text-lg md:text-xl font-bold">
-              Contrato de Trabalho
+              Contrato de trabalho e regimento interno empresarial.
             </h2>
           </div>
 
@@ -174,7 +166,7 @@ export const MyServices = () => {
             <img className=' w-20 group-hover:hidden' src={PatrimonialOne} alt="" />
             <img className='hidden  w-20 group-hover:block' src={PatrimonialTwo} alt="" />
             <h2 className="text-white group-hover:text-greenTheme text-center text-lg md:text-xl font-bold">
-              Regimento interno
+              Elaboração e análise de contratos.
             </h2>
           </div>
         </div>
