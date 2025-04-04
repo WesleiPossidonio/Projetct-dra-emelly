@@ -11,7 +11,7 @@ export const Hero = () => {
         caso de forma única e buscando sempre a melhor resolução, com eficiência
         e sensibilidade na atuação jurídica seja no âmbito extrajudicial ou judicial.
       </p>
-      <button className="w-36 self-start text-lg bg-white px-6 py-3 mt-2 md:mt-4 rounded text-greenTheme font-bold">Saiba Mais!</button>
+      <a href="https://api.whatsapp.com/send/?phone=5522999599450&text&type=phone_number&app_absent=0" target="_blank" className="w-36 self-start text-lg bg-white px-6 py-3 mt-2 md:mt-4 rounded text-greenTheme font-bold">Saiba Mais!</a>
     </section>
   )
 }

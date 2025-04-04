@@ -91,7 +91,7 @@ export const Contact = () => {
             <Input className='border-gray-400 focus:border-greenTheme' type="tel" placeholder="Digite o número do Telefone" {...register('phone')} />
             <Input className='border-gray-400 focus:border-greenTheme' type="text" placeholder="Digite o Assunto" {...register('subject_title')} />
             <Textarea className='border-gray-400 focus:border-greenTheme' placeholder='Digite sua Dúvida' {...register('subject_text')} />
-            <button className="w-36 self-start text-base bg-greenTheme px-4 py-2 mt-2 rounded text-white font-bold" type='submit'>Saiba Mais!</button>
+            <button className="w-36 self-start text-base bg-greenTheme px-4 py-2 mt-2 rounded text-white font-bold" type='submit'>Enviar</button>
           </form>
         </div>
       </div>

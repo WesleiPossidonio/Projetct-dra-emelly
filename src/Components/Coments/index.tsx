@@ -54,7 +54,7 @@ export const Coments = () => {
               Veja o que meus clientes dizem sobre meu trabalho
             </p>
           </div>
-          <button className="w-36 self-start text-base bg-white px-4 py-2 mt-2 rounded text-greenTheme font-bold">Saiba Mais!</button>
+          <a href="https://api.whatsapp.com/send/?phone=5522999599450&text&type=phone_number&app_absent=0" target="_blank" className="w-36 self-start text-base bg-white px-4 py-2 mt-2 rounded text-greenTheme font-bold">Saiba Mais!</a>
         </div>
 
         <Carousel className="w-full" plugins={[
