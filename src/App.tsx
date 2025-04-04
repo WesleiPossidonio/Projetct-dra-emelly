@@ -10,7 +10,8 @@ import {
   Footer,
   Header,
   Hero,
-  MyServices
+  MyServices,
+  WhatsappButton
 } from "./Components"
 import { useEffect } from 'react';
 
@@ -23,6 +24,7 @@ function App() {
 
   return (
     <main className="bg-white w-full h-auto">
+      <WhatsappButton />
       <Header />
       <Hero />
       <AboutMe />

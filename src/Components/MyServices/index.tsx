@@ -27,7 +27,7 @@ export const MyServices = () => {
 
           <div className="md:py-5 space-y-2 md:col-span-2 mb-3 md:mb-0 lg:pr-4">
             <h2 className="text-white text-2xl md:text-3xl font-bold mb-1">
-              Exelência e Compromisso com a sua Questão Juridica
+              Excelência e Compromisso com a sua Questão Jurídica.
             </h2>
             <p className="text-white text-sm md:text-lg">
               Com atuação em demandas extrajudiciais e judiciais, Dra. Emelly
@@ -43,7 +43,7 @@ export const MyServices = () => {
             <img className='w-20 group-hover:hidden' src={ImageDivorceOne} alt="" />
             <img className='hidden  w-20 group-hover:block' src={ImageDivorceTwo} alt="" />
             <h2 className="text-white text-center group-hover:text-greenTheme text-lg md:text-xl font-bold">
-              Divórcio Consensual (Cartório)
+              Divórcio Consensual Extrajudicial (Cartório)
             </h2>
           </div>
 
