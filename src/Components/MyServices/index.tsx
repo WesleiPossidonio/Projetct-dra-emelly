@@ -43,7 +43,7 @@ export const MyServices = () => {
             <img className='w-20 group-hover:hidden' src={ImageDivorceOne} alt="" />
             <img className='hidden  w-20 group-hover:block' src={ImageDivorceTwo} alt="" />
             <h2 className="text-white text-center group-hover:text-greenTheme text-lg md:text-xl font-bold">
-              Divórcio Consensual Extrajudicial (Cartório)
+              Divórcio Extrajudicial (Cartório)
             </h2>
           </div>
 
