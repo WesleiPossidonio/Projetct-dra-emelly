@@ -1,4 +1,6 @@
 import AOS from 'aos';
+import { useEffect } from 'react';
+import { ToastContainer } from 'react-toastify';
 import 'aos/dist/aos.css';
 
 import {
@@ -13,8 +15,6 @@ import {
   MyServices,
   WhatsappButton
 } from "./Components"
-import { useEffect } from 'react';
-
 
 function App() {
 
@@ -24,6 +24,7 @@ function App() {
 
   return (
     <main className="bg-white w-full h-auto">
+      <ToastContainer />
       <WhatsappButton />
       <Header />
       <Hero />

@@ -1,14 +1,15 @@
-import ImageContact from '../../assets/contactImage.svg'
 
 import { zodResolver } from "@hookform/resolvers/zod"
 import { useForm } from "react-hook-form"
+import { toast } from 'react-toastify'
 import * as zod from "zod"
 
-
+import ImageContact from '../../assets/contactImage.svg'
 import { Input } from '../../components/ui/input'
 import { Textarea } from '../../components/ui/textarea'
 import { MailPlus, Map, Smartphone } from 'lucide-react'
-
+import { useState } from 'react'
+import api from '../../services/api'
 
 const sendEmailFormSchema = zod.object({
   name: zod.string().min(3, 'Por gentileza, digite o seu nome'),
@@ -24,6 +25,8 @@ const sendEmailFormSchema = zod.object({
 type createSendEmailFormInputs = zod.infer<typeof sendEmailFormSchema>
 
 export const Contact = () => {
+  const [captcha, setCaptcha] = useState<string | null>('')
+
   const {
     register,
     handleSubmit,
@@ -34,11 +37,30 @@ export const Contact = () => {
   })
 
 
-  const handlesendMail = (data: createSendEmailFormInputs) => {
-    console.log(data)
-    reset()
-  }
+  const handlesendMail = async (data: createSendEmailFormInputs) => {
+    const { email, name, phone, subject_text, subject_title } = data
 
+    const dataSendEmail = {
+      email,
+      name,
+      phone,
+      subject_text,
+      subject_title,
+      captcha, // Incluindo o token reCAPTCHA
+    }
+
+    try {
+      await toast.promise(api.post('sendMail', dataSendEmail), {
+        pending: 'Verificando seus dados',
+        success: 'Dúvida enviada com sucesso!',
+        error: 'Verifique seus dado e faça novamente! 🤯',
+      })
+      reset()
+      setCaptcha(null) // Resetando o captcha após o envio
+    } catch (error) {
+      console.log(error)
+    }
+  }
 
   return (
     <section className='w-full h-auto bg-white py-16 px-4 flex justify-center items-center overflow-hidden' id='contacts' style={{ minHeight: '35rem' }}>
@@ -86,12 +108,36 @@ export const Contact = () => {
 
           </div>
           <form onSubmit={handleSubmit(handlesendMail)} className="space-y-4 ">
-            <Input className='border-gray-400 focus:border-greenTheme' type="text" placeholder="Digite o seu nome" {...register('name')} />
-            <Input className='border-gray-400 focus:border-greenTheme' type="email" placeholder="Email" {...register('email')} />
-            <Input className='border-gray-400 focus:border-greenTheme' type="tel" placeholder="Digite o número do Telefone" {...register('phone')} />
-            <Input className='border-gray-400 focus:border-greenTheme' type="text" placeholder="Digite o Assunto" {...register('subject_title')} />
-            <Textarea className='border-gray-400 focus:border-greenTheme' placeholder='Digite sua Dúvida' {...register('subject_text')} />
-            <button className="w-36 self-start text-base bg-greenTheme px-4 py-2 mt-2 rounded text-white font-bold" type='submit'>Enviar</button>
+            <Input
+              className='border-gray-400 focus:border-greenTheme'
+              type="text" placeholder="Digite o seu nome"
+              {...register('name')}
+            />
+
+            <Input
+              className='border-gray-400 focus:border-greenTheme'
+              type="email" placeholder="Email"
+              {...register('email')}
+            />
+            <Input
+              className='border-gray-400 focus:border-greenTheme'
+              type="tel" placeholder="Digite o número do Telefone"
+              {...register('phone')}
+            />
+            <Input
+              className='border-gray-400 focus:border-greenTheme'
+              type="text" placeholder="Digite o Assunto"
+              {...register('subject_title')}
+            />
+            <Textarea
+              className='border-gray-400 h-36 focus:border-greenTheme'
+              placeholder='Digite sua Dúvida' {...register('subject_text')}
+            />
+
+            <button className="w-36 self-start text-base bg-greenTheme px-4 
+              py-2 mt-2 rounded text-white font-bold" type='submit'>
+              Enviar
+            </button>
           </form>
         </div>
       </div>
