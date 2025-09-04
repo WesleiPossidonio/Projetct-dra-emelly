@@ -5,8 +5,8 @@ export const Differential = () => {
   return (
     <section className="w-full h-auto flex items-center bg-center bg-fixed bg-cover bg-parallaxDescktop bg-no-repeat overflow-hidden" style={{ minHeight: '35rem' }}>
       <div className="container max-w-6xl mx-auto py-10 px-4 space-y-5">
-        <div className="flex flex-col-reverse gap-8 md:flex-row items-center justify-around">
-          <div className="flex items-center justify-center space-x-2 relative" data-aos="fade-right" data-aos-duration="1000">
+        <div className="flex flex-col-reverse gap-8 md:flex-row items-center justify-evenly">
+          <div className="flex items-center justify-start space-x-2 relative" data-aos="fade-right" data-aos-duration="1000">
             <span className="position-absolute bg-primary px-1 rounded-lg"></span>
             <img className="rounded-md w-60 md:w-72 lg:w-80" src={Image} alt="" />
 
