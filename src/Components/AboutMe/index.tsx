@@ -12,13 +12,13 @@ export const AboutMe = () => {
           </div>
 
           <p className="text-black text-sm md:text-lg">
-            Me chamo Emely, sou advogada com mais de 12 anos de experiência,
-            voltada em oferecer soluções jurídicas ágeis e personalizadas
+            Me chamo Emely, sou advogada com <strong> mais de 12 anos de experiência</strong>,
+            voltada em oferecer <strong> soluções jurídicas ágeis e personalizadas </strong>
             para atender às necessidades específicas dos clientes.
             <br /><br />
             Ao longo da minha trajetória, construí uma reputação de eficiência,
-            integridade e resultados práticos, ajudando indivíduos e empresas a
-            superarem desafios legais com agilidade e assertividade.
+            integridade e resultados práticos,<strong> ajudando indivíduos e empresas a
+              superarem desafios legais com agilidade e assertividade </strong>.
           </p>
 
           <p className="text-black text-sm md:text-lg">

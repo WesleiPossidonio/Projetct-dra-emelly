@@ -25,10 +25,10 @@ export const Differential = () => {
                 </h2>
               </div>
               <p className='text-black text-sm md:text-lg'>
-                Cada atendimento é feito com dedicação e exclusividade, garantindo que suas
-                necessidades sejam compreendidas com empatia e profissionalismo. Com um olhar
+                Cada atendimento é feito com <strong> dedicação e exclusividade </strong>, garantindo que suas
+                necessidades sejam compreendidas com <strong> empatia e profissionalismo </strong>. Com um olhar
                 atento e humanizado, meu compromisso é oferecer soluções que realmente façam
-                a diferença na sua vida.
+                a <strong>  diferença na sua vida.</strong>
               </p>
             </div>
 

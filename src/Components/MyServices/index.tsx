@@ -30,10 +30,10 @@ export const MyServices = () => {
               Excelência e Compromisso com a sua Questão Jurídica.
             </h2>
             <p className="text-white text-sm md:text-lg">
-              Com atuação em demandas extrajudiciais e judiciais, Dra. Emelly
+              Com atuação em demandas <strong> extrajudiciais e judiciais</strong>, Dra. Emelly
               defende a importância de buscar sempre soluções adequadas para
-              seus clientes, priorizando, sempre que possível, a resolução
-              por vias extrajudiciais.
+              seus clientes, priorizando, sempre que possível, <strong> a resolução
+                por vias extrajudiciais.</strong>
             </p>
           </div>
 
