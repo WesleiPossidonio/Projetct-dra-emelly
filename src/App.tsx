@@ -6,6 +6,7 @@ import 'aos/dist/aos.css';
 import {
   AboutMe,
   Coments,
+  Contact,
   Differential,
   Faq,
   Footer,
@@ -33,6 +34,7 @@ function App() {
       <Coments />
       {/* <CallAction /> */}
       <Faq />
+      <Contact />
       <Footer />
     </main>
   )

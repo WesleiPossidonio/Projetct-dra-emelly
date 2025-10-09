@@ -1,69 +1,12 @@
 
-import { zodResolver } from "@hookform/resolvers/zod"
-import { useForm } from "react-hook-form"
-import { toast } from 'react-toastify'
-import * as zod from "zod"
-
 import ImageContact from '../../assets/contactImage.svg'
-import { Input } from '../../components/ui/input'
-import { Textarea } from '../../components/ui/textarea'
 import { MailPlus, Map, Smartphone } from 'lucide-react'
-import { useState } from 'react'
-import api from '../../services/api'
-
-const sendEmailFormSchema = zod.object({
-  name: zod.string().min(3, 'Por gentileza, digite o seu nome'),
-  email: zod.string().email('Por gentileza, digite o seu email corretamente'),
-  phone: zod
-    .string()
-    .min(11, 'Por gentileza, digite o numero de telefone corretamente')
-    .max(11, 'Por gentileza, digite o numero sem caractere'),
-  subject_text: zod.string().min(3, 'Digite sua dúvida'),
-  subject_title: zod.string().min(3, 'Digite sua dúvida'),
-})
-
-type createSendEmailFormInputs = zod.infer<typeof sendEmailFormSchema>
+import { WhatsappLogoIcon } from "@phosphor-icons/react"
 
 export const Contact = () => {
-  const [captcha, setCaptcha] = useState<string | null>('')
-
-  const {
-    register,
-    handleSubmit,
-    // formState: { errors },
-    reset,
-  } = useForm<createSendEmailFormInputs>({
-    resolver: zodResolver(sendEmailFormSchema),
-  })
-
-
-  const handlesendMail = async (data: createSendEmailFormInputs) => {
-    const { email, name, phone, subject_text, subject_title } = data
-
-    const dataSendEmail = {
-      email,
-      name,
-      phone,
-      subject_text,
-      subject_title,
-      captcha, // Incluindo o token reCAPTCHA
-    }
-
-    try {
-      await toast.promise(api.post('sendMail', dataSendEmail), {
-        pending: 'Verificando seus dados',
-        success: 'Dúvida enviada com sucesso!',
-        error: 'Verifique seus dado e faça novamente! 🤯',
-      })
-      reset()
-      setCaptcha(null) // Resetando o captcha após o envio
-    } catch (error) {
-      console.log(error)
-    }
-  }
 
   return (
-    <section className='w-full h-auto bg-white py-16 px-4 flex justify-center items-center overflow-hidden' id='contacts' style={{ minHeight: '35rem' }}>
+    <section className='w-full h-auto bg-white pb-16 px-4 flex justify-center items-center overflow-hidden' id='contacts' style={{ minHeight: '35rem' }}>
       <div className="w-full container flex flex-col gap-14 lg:flex-row items-end md:items-center lg:items-end justify-center lg:justify-around lg:gap-4">
         <img className='w-96 md:w-maps order-2' src={ImageContact} alt="" data-aos="fade-up" data-aos-offset="300"
           data-aos-easing="ease-in-sine" />
@@ -76,7 +19,7 @@ export const Contact = () => {
               Entre em contato e dê o primeiro passo para resolver suas questões jurídicas com confiança e excelência.
             </h1>
 
-            <div className='w-full flex flex-col items-start justify-center gap-4 mt-4'>
+            <div className='w-full flex flex-col items-start justify-center gap-4'>
               <div className="w-full flex flex-col md:flex-row items-start md:items-center justify-start gap-4 md:gap-20">
                 <div className='flex items-center'>
                   <Smartphone className='text-greenTheme size-11' />
@@ -106,39 +49,20 @@ export const Contact = () => {
               </div>
             </div>
 
+            <div className=' w-full lg:w-3/4 mt-8 flex flex-col md:flex-row items-center gap-4'>
+              <a href="mailto:mailto:emelyfontes@hotmail.com" className='w-full flex items-center justify-center gap-2 p-2 md:p-4 bg-greenTheme text-white font-semibold rounded-md hover:opacity-90 transition-colors'>
+                <MailPlus className='text-white size-8' />
+                Entrar em Contato
+              </a>
+
+              <a href="https://wa.me/5522999599450" target='_blank' rel="noopener noreferrer" className='w-full flex items-center justify-center gap-2 p-2 md:p-4 bg-greenTheme text-white font-semibold rounded-md hover:opacity-90 transition-colors'>
+                <WhatsappLogoIcon className='text-white size-8' />
+                Entrar em Contato
+              </a>
+            </div>
+
           </div>
-          <form onSubmit={handleSubmit(handlesendMail)} className="space-y-4 ">
-            <Input
-              className='border-gray-400 focus:border-greenTheme'
-              type="text" placeholder="Digite o seu nome"
-              {...register('name')}
-            />
 
-            <Input
-              className='border-gray-400 focus:border-greenTheme'
-              type="email" placeholder="Email"
-              {...register('email')}
-            />
-            <Input
-              className='border-gray-400 focus:border-greenTheme'
-              type="tel" placeholder="Digite o número do Telefone"
-              {...register('phone')}
-            />
-            <Input
-              className='border-gray-400 focus:border-greenTheme'
-              type="text" placeholder="Digite o Assunto"
-              {...register('subject_title')}
-            />
-            <Textarea
-              className='border-gray-400 h-36 focus:border-greenTheme'
-              placeholder='Digite sua Dúvida' {...register('subject_text')}
-            />
-
-            <button className="w-36 self-start text-base bg-greenTheme px-4 
-              py-2 mt-2 rounded text-white font-bold" type='submit'>
-              Enviar
-            </button>
-          </form>
         </div>
       </div>
     </section>
