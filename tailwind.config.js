@@ -23,8 +23,6 @@ export default {
 			},
 			backgroundImage: {
 				parallaxDescktop: 'url("../public/BannerAbout.webp")',
-				bannerMobile: 'url("../public/BannerImgMobile.webp")',
-				bannerDescktop: 'url("../public/BannerDraEmelly2.webp")',
 				imageTeste: 'url("../public/imageTeste.webp")'
 
 			},

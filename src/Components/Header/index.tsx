@@ -9,7 +9,7 @@ export const Header = () => {
 
   useEffect(() => {
     const handleScroll = () => {
-      setScrolled(window.scrollY > 50); // Altera o estado se rolar mais de 50px
+      setScrolled(window.scrollY > 50); 
     };
 
     window.addEventListener("scroll", handleScroll);
@@ -17,7 +17,7 @@ export const Header = () => {
   }, []);
 
   return (
-    <header className={`fixed w-full flex justify-between items-center text-black py-3 px-6 md:px-28 drop-shadow-md ${scrolled || isMenuOpen ? "bg-greenTheme shadow-lg z-10" : "bg-transparent"
+    <header className={`fixed w-full flex justify-between items-center text-black py-3 px-6 md:px-28 drop-shadow-md z-40 ${scrolled || isMenuOpen ? "bg-greenTheme shadow-lg z-10" : "bg-transparent"
       }`}>
 
       <a href="/">
