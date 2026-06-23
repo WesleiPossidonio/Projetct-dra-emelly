@@ -3,12 +3,12 @@ import Image from '../../assets/diferençasImages.webp'
 
 export const Differential = () => {
   return (
-    <section className="w-full h-auto flex items-center bg-center bg-fixed bg-cover bg-parallaxDescktop bg-no-repeat overflow-hidden" style={{ minHeight: '35rem' }}>
+    <section className="w-full h-auto flex items-center bg-center lg:bg-fixed bg-cover bg-parallaxDescktop bg-no-repeat overflow-hidden" style={{ minHeight: '35rem' }}>
       <div className="container max-w-6xl mx-auto py-10 px-4 space-y-5">
         <div className="flex flex-col-reverse gap-8 md:flex-row items-center justify-evenly">
           <div className="flex items-center justify-start space-x-2 relative" data-aos="fade-right" data-aos-duration="1000">
             <span className="position-absolute bg-primary px-1 rounded-lg"></span>
-            <img className="rounded-md w-60 md:w-72 lg:w-80" src={Image} alt="" loading="lazy" />
+            <img className="rounded-md w-60 md:w-72 lg:w-80" src={Image} alt="Emely Fontes" loading="lazy" />
 
             <div className="h-24 w-32 md:h-32 md:w-40 -bottom-6 -right-6 md:-right-7 px-1 flex flex-col items-center justify-center absolute md:-bottom-8  lg:-right-12 bg-primary rounded-lg">
               <h1 className="text-2xl md:text-3xl text-white font-bold ">+ 2000 </h1>
