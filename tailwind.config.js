@@ -22,10 +22,10 @@ export default {
 				primary: '#4C5E54'
 			},
 			backgroundImage: {
-				parallaxDescktop: 'url("../public/BannerAbout.png")',
-				bannerMobile: 'url("../public/BannerImgMobile.png")',
-				bannerDescktop: 'url("../public/BannerDraEmelly2.png")',
-				imageTeste: 'url("../public/imageTeste.png")'
+				parallaxDescktop: 'url("../public/BannerAbout.webp")',
+				bannerMobile: 'url("../public/BannerImgMobile.webp")',
+				bannerDescktop: 'url("../public/BannerDraEmelly2.webp")',
+				imageTeste: 'url("../public/imageTeste.webp")'
 
 			},
 			colors: {

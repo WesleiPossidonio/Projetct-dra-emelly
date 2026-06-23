@@ -1,4 +1,4 @@
-import ImageAbout from '../../assets/ImgEmelyFontes-1.jpg'
+import ImageAbout from '../../assets/ImgEmelyFontes-1.webp'
 
 export const AboutMe = () => {
 
@@ -27,7 +27,7 @@ export const AboutMe = () => {
         </div>
 
         <div className=" border-4 border-greenTheme w-60 md:w-72 lg:w-72 rounded-md absolute md:relative -bottom-6 md:-bottom-9 lg:-bottom-6 shadow-lg" data-aos="fade-up" data-aos-duration="1000">
-          <img className="flex-shrink-0 object-cover mt-4 -mb-4 -ml-4 mr-4 rounded-sm shadow-lg z-[2]" src={ImageAbout} alt="" />
+          <img className="flex-shrink-0 object-cover mt-4 -mb-4 -ml-4 mr-4 rounded-sm shadow-lg z-[2]" src={ImageAbout} alt="Imagem Dra Emely Fontes" loading="lazy"/>
         </div>
       </div>
     </section>

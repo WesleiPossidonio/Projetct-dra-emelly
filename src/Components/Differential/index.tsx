@@ -1,5 +1,5 @@
 import { Goal, Handshake, MapPinned, UserCheck } from "lucide-react"
-import Image from '../../assets/diferençasImages.jpg'
+import Image from '../../assets/diferençasImages.webp'
 
 export const Differential = () => {
   return (
@@ -8,7 +8,7 @@ export const Differential = () => {
         <div className="flex flex-col-reverse gap-8 md:flex-row items-center justify-evenly">
           <div className="flex items-center justify-start space-x-2 relative" data-aos="fade-right" data-aos-duration="1000">
             <span className="position-absolute bg-primary px-1 rounded-lg"></span>
-            <img className="rounded-md w-60 md:w-72 lg:w-80" src={Image} alt="" />
+            <img className="rounded-md w-60 md:w-72 lg:w-80" src={Image} alt="" loading="lazy" />
 
             <div className="h-24 w-32 md:h-32 md:w-40 -bottom-6 -right-6 md:-right-7 px-1 flex flex-col items-center justify-center absolute md:-bottom-8  lg:-right-12 bg-primary rounded-lg">
               <h1 className="text-2xl md:text-3xl text-white font-bold ">+ 2000 </h1>

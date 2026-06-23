@@ -40,8 +40,8 @@ export const MyServices = () => {
           <div className="group border border-white rounded-md px-4 py-5 flex flex-col items-center 
             justify-center gap-3 hover:bg-white cursor-pointer hover:-translate-y-2 
             transition ease-in-out duration-200" data-aos="zoom-in" data-aos-duration="1000">
-            <img className='w-20 group-hover:hidden' src={ImageDivorceOne} alt="" />
-            <img className='hidden  w-20 group-hover:block' src={ImageDivorceTwo} alt="" />
+            <img className='w-20 group-hover:hidden' src={ImageDivorceOne} alt="" loading="lazy"/>
+            <img className='hidden  w-20 group-hover:block' src={ImageDivorceTwo} alt="" loading="lazy"/>
             <h2 className="text-white text-center group-hover:text-greenTheme text-lg md:text-xl font-bold">
               Divórcio Extrajudicial (Cartório)
             </h2>
@@ -51,8 +51,8 @@ export const MyServices = () => {
           <div className="group border border-white rounded-md px-4 py-5 flex flex-col items-center 
             justify-center gap-3 hover:bg-white cursor-pointer hover:-translate-y-2 
             transition ease-in-out duration-200" data-aos="zoom-in" data-aos-duration="1000">
-            <img className='w-20 group-hover:hidden' src={ImageDivorceOne} alt="" />
-            <img className='hidden  w-20 group-hover:block' src={ImageDivorceTwo} alt="" />
+            <img className='w-20 group-hover:hidden' src={ImageDivorceOne} alt="" loading="lazy" />
+            <img className='hidden  w-20 group-hover:block' src={ImageDivorceTwo} alt="" loading="lazy" />
             <h2 className="text-white text-center group-hover:text-greenTheme text-lg md:text-xl font-bold">
               Direito da Família Consensual
             </h2>
@@ -61,8 +61,8 @@ export const MyServices = () => {
           <div className="group border border-white rounded-md px-4 py-5 flex flex-col items-center 
             justify-center gap-3 hover:bg-white cursor-pointer hover:-translate-y-2 transition 
             ease-in-out duration-200" data-aos="zoom-in" data-aos-duration="1000">
-            <img className=' w-20 group-hover:hidden' src={InventarioOne} alt="" />
-            <img className='hidden  w-20 group-hover:block' src={InventarioTwo} alt="" />
+            <img className=' w-20 group-hover:hidden' src={InventarioOne} alt="" loading="lazy" />
+            <img className='hidden  w-20 group-hover:block' src={InventarioTwo} alt="" loading="lazy" />
             <h2 className="text-white text-center group-hover:text-greenTheme text-lg md:text-xl font-bold">
               Inventário Extrajudicial
             </h2>
@@ -71,8 +71,8 @@ export const MyServices = () => {
           <div className="group border border-white rounded-md px-4 py-5 flex flex-col items-center 
             justify-center gap-3 hover:bg-white cursor-pointer hover:-translate-y-2 transition 
             ase-in-out duration-200" data-aos="zoom-in" data-aos-duration="1000">
-            <img className='w-20 group-hover:hidden' src={ImageContractOne} alt="" />
-            <img className='hidden  w-20 group-hover:block' src={ImageContractTwo} alt="" />
+            <img className='w-20 group-hover:hidden' src={ImageContractOne} alt="" loading="lazy" />
+            <img className='hidden  w-20 group-hover:block' src={ImageContractTwo} alt="" loading="lazy" />
             <h2 className="text-white text-center group-hover:text-greenTheme text-lg md:text-xl font-bold">
               Adjudicação extrajudicial e Usucapião Extrajudicial.
             </h2>
@@ -81,8 +81,8 @@ export const MyServices = () => {
           <div className="group border border-white rounded-md px-4 py-5 flex flex-col items-center 
              justify-center gap-3 hover:bg-white cursor-pointer 
              hover:-translate-y-2 transition ease-in-out duration-200" data-aos="zoom-in" data-aos-duration="1000">
-            <img className=' w-20 group-hover:hidden' src={InventarioOne} alt="" />
-            <img className='hidden  w-20 group-hover:block' src={InventarioTwo} alt="" />
+            <img className=' w-20 group-hover:hidden' src={InventarioOne} alt="" loading="lazy" />
+            <img className='hidden  w-20 group-hover:block' src={InventarioTwo} alt="" loading="lazy" />
             <h2 className="text-white text-center group-hover:text-greenTheme text-lg md:text-xl font-bold">
               Regularização de imóveis administrativa e cartorária, incluindo “habite-se”
             </h2>
@@ -91,8 +91,8 @@ export const MyServices = () => {
           <div className="group border border-white rounded-md px-4 py-5 flex flex-col 
             items-center justify-center gap-3 hover:bg-white cursor-pointer hover:-translate-y-2 
             transition ease-in-out duration-200" data-aos="zoom-in" data-aos-duration="1000">
-            <img className='w-20 group-hover:hidden' src={SucessaoOne} alt="" />
-            <img className='hidden  w-20 group-hover:block' src={SucessaoTwo} alt="" />
+            <img className='w-20 group-hover:hidden' src={SucessaoOne} alt="" loading="lazy" />
+            <img className='hidden  w-20 group-hover:block' src={SucessaoTwo} alt="" loading="lazy" />
             <h2 className="text-white text-center group-hover:text-greenTheme text-lg md:text-xl font-bold">
               Doação de imóvel e Planejamento Patrimonial e Sucessório.
             </h2>
@@ -101,8 +101,8 @@ export const MyServices = () => {
           <div className="group border border-white rounded-md px-4 py-5 flex flex-col items-center 
             justify-center gap-3 hover:bg-white cursor-pointer hover:-translate-y-2 transition 
             ease-in-out duration-200" data-aos="zoom-in" data-aos-duration="1000">
-            <img className=' w-20 group-hover:hidden' src={CasamentoOne} alt="" />
-            <img className='hidden  w-20 group-hover:block' src={CasamentoTwo} alt="" />
+            <img className=' w-20 group-hover:hidden' src={CasamentoOne} alt="" loading="lazy" />
+            <img className='hidden  w-20 group-hover:block' src={CasamentoTwo} alt="" loading="lazy" />
             <h2 className="text-white group-hover:text-greenTheme text-lg md:text-xl font-bold text-center">
               Planejamento matrimonial - Regime de bens no Casamento.
             </h2>
@@ -111,8 +111,8 @@ export const MyServices = () => {
           <div className="group border border-white rounded-md px-4 py-5 flex flex-col items-center 
             justify-center gap-3 hover:bg-white cursor-pointer hover:-translate-y-2 transition 
             ease-in-out duration-200" data-aos="zoom-in" data-aos-duration="1000">
-            <img className=' w-20 group-hover:hidden' src={ImageContractOne} alt="" />
-            <img className='hidden  w-20 group-hover:block' src={ImageContractTwo} alt="" />
+            <img className=' w-20 group-hover:hidden' src={ImageContractOne} alt="" loading="lazy" />
+            <img className='hidden  w-20 group-hover:block' src={ImageContractTwo} alt="" loading="lazy" />
             <h2 className="text-white group-hover:text-greenTheme text-center text-lg md:text-xl font-bold">
               Consultoria imobiliária na compra e venda e locações de imóveis.
             </h2>
@@ -122,8 +122,8 @@ export const MyServices = () => {
           <div className="group border border-white rounded-md px-4 py-5 flex flex-col items-center 
             justify-center gap-3 hover:bg-white cursor-pointer hover:-translate-y-2 
             transition ease-in-out duration-200" data-aos="zoom-in" data-aos-duration="1000">
-            <img className=' w-20 group-hover:hidden' src={PatrimonialOne} alt="" />
-            <img className='hidden  w-20 group-hover:block' src={PatrimonialTwo} alt="" />
+            <img className=' w-20 group-hover:hidden' src={PatrimonialOne} alt="" loading="lazy" />
+            <img className='hidden  w-20 group-hover:block' src={PatrimonialTwo} alt="" loading="lazy" />
             <h2 className="text-white group-hover:text-greenTheme text-center text-lg md:text-xl font-bold">
               Trabalhista Empresarial.
             </h2>
@@ -132,8 +132,8 @@ export const MyServices = () => {
           <div className="group border border-white rounded-md px-4 py-5 flex flex-col items-center justify-center 
             gap-3 hover:bg-white cursor-pointer hover:-translate-y-2 transition 
             ease-in-out duration-200" data-aos="zoom-in" data-aos-duration="1000">
-            <img className=' w-20 group-hover:hidden' src={ImageContractOne} alt="" />
-            <img className='hidden  w-20 group-hover:block' src={ImageContractTwo} alt="" />
+            <img className=' w-20 group-hover:hidden' src={ImageContractOne} alt="" loading="lazy" />
+            <img className='hidden  w-20 group-hover:block' src={ImageContractTwo} alt="" loading="lazy" />
             <h2 className="text-white text-center group-hover:text-greenTheme text-lg md:text-xl font-bold">
               Elaboração e análise de contratos.
             </h2>
@@ -143,8 +143,8 @@ export const MyServices = () => {
           <div className="group border border-white rounded-md px-4 py-5 flex flex-col items-center 
             justify-center gap-3 hover:bg-white cursor-pointer hover:-translate-y-2 
             transition ease-in-out duration-200" data-aos="zoom-in" data-aos-duration="1000">
-            <img className=' w-20 group-hover:hidden' src={PatrimonialOne} alt="" />
-            <img className='hidden  w-20 group-hover:block' src={PatrimonialTwo} alt="" />
+            <img className=' w-20 group-hover:hidden' src={PatrimonialOne} alt="" loading="lazy" />
+            <img className='hidden  w-20 group-hover:block' src={PatrimonialTwo} alt="" loading="lazy" />
             <h2 className="text-white group-hover:text-greenTheme text-center text-lg md:text-xl font-bold">
               Contrato de trabalho e regimento interno empresarial.
             </h2>
@@ -153,8 +153,8 @@ export const MyServices = () => {
           <div className="group border border-white rounded-md px-4 py-5 flex flex-col items-center 
             justify-center gap-3 hover:bg-white cursor-pointer hover:-translate-y-2 
             transition ease-in-out duration-200" data-aos="zoom-in" data-aos-duration="1000">
-            <img className='w-20 group-hover:hidden' src={SucessaoOne} alt="" />
-            <img className='hidden  w-20 group-hover:block' src={SucessaoTwo} alt="" />
+            <img className='w-20 group-hover:hidden' src={SucessaoOne} alt="" loading="lazy" />
+            <img className='hidden  w-20 group-hover:block' src={SucessaoTwo} alt="" loading="lazy" />
             <h2 className="text-white group-hover:text-greenTheme text-center text-lg md:text-xl font-bold">
               Elaboração e análise de contratos.
             </h2>
